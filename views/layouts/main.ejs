@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Logo</h1>
+        <h2>Site Title</h2>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/admin/login">Login</a></li>
+            <li><a href="/admin/dashboard">Dashboard</a></li>
+            <li><a href="/admin/addPage">Add Page</a></li>
+            <li><a href="/admin/editPage">Edit Page</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <%- body %>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
